@@ -7,23 +7,25 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="main-container"><h1>Stock Profit or loss</h1>
+    <div class="main-container">
+      <h1>Stock Master</h1>
+      <h2>Profit/loss calculator</h2>
    <label for="initial-price">
-       Initial stock Price
-       <input type="text" id="initial-price" placeholder="Enter here">
+       Initial stock Price :
+       <input type="text" id="initial-price" placeholder="Enter here" required>
    </label>
   
    <label for="stocks-quantity">
-     Quantity of total Stock
-   <input type="text" id="stocks-quantity" placeholder="Enter quantity of stock">
+     Quantity of total Stock :
+   <input type="text" id="stocks-quantity" placeholder="Enter quantity of stock" required>
    </label>
    <label for="latest-price">
-     Current Price of 1 stock
-   <input type="text" id="latest-price" placeholder="Latest Price ">
+     Current Price of 1 stock :
+   <input type="text" id="latest-price" placeholder="Latest Price" required>
    </label>
-   <button id="button-operate">profit/loss</button>
-  <div id="output-box"></div>
-  <div id="output"></div></div>
+   <button id="button-operate" class="profit-loss-btn">Check</button>
+  <div id="output-box" class="output-warn-text"></div>
+  <div id="output" class="output-text"></div></div>
 
 
 
